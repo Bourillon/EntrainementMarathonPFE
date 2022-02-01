@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PMML xmlns="http://www.dmg.org/PMML-4_4" xmlns:data="http://jpmml.org/jpmml-model/InlineTable" version="4.4">
+	<Header>
+		<Application name="JPMML-SkLearn" version="1.6.35"/>
+		<Timestamp>2022-01-27T11:19:47Z</Timestamp>
+	</Header>
+	<MiningBuildTask>
+		<Extension name="repr">PMMLPipeline(steps=[('regressor', LinearRegression())])</Extension>
+	</MiningBuildTask>
+	<DataDictionary>
+		<DataField name="Temps" optype="continuous" dataType="double"/>
+		<DataField name="NB_marathon" optype="continuous" dataType="double"/>
+		<DataField name="Gender" optype="continuous" dataType="double"/>
+		<DataField name="Taille" optype="continuous" dataType="double"/>
+		<DataField name="Poids" optype="continuous" dataType="double"/>
+		<DataField name="IMC" optype="continuous" dataType="double"/>
+		<DataField name="Age" optype="continuous" dataType="double"/>
+		<DataField name="NB_Training" optype="continuous" dataType="double"/>
+		<DataField name="Fractionné" optype="continuous" dataType="double"/>
+		<DataField name="SL" optype="continuous" dataType="double"/>
+		<DataField name="Denivelé" optype="continuous" dataType="double"/>
+		<DataField name="Duree_preparation" optype="continuous" dataType="double"/>
+		<DataField name="RF" optype="continuous" dataType="double"/>
+		<DataField name="Activities" optype="continuous" dataType="double"/>
+		<DataField name="Experience" optype="continuous" dataType="double"/>
+	</DataDictionary>
+	<RegressionModel functionName="regression" algorithmName="sklearn.linear_model._base.LinearRegression">
+		<MiningSchema>
+			<MiningField name="Temps" usageType="target"/>
+			<MiningField name="NB_marathon"/>
+			<MiningField name="Gender"/>
+			<MiningField name="Taille"/>
+			<MiningField name="Poids"/>
+			<MiningField name="IMC"/>
+			<MiningField name="Age"/>
+			<MiningField name="NB_Training"/>
+			<MiningField name="Fractionné"/>
+			<MiningField name="SL"/>
+			<MiningField name="Denivelé"/>
+			<MiningField name="Duree_preparation"/>
+			<MiningField name="RF"/>
+			<MiningField name="Activities"/>
+			<MiningField name="Experience"/>
+		</MiningSchema>
+		<RegressionTable intercept="12331.921071376964">
+			<NumericPredictor name="NB_marathon" coefficient="-481.02475294974147"/>
+			<NumericPredictor name="Gender" coefficient="-2863.1621544076215"/>
+			<NumericPredictor name="Taille" coefficient="-422.97123059198117"/>
+			<NumericPredictor name="Poids" coefficient="0.8946168832852095"/>
+			<NumericPredictor name="IMC" coefficient="325.93960087105893"/>
+			<NumericPredictor name="Age" coefficient="29.31442022701094"/>
+			<NumericPredictor name="NB_Training" coefficient="-609.1675028649424"/>
+			<NumericPredictor name="Fractionné" coefficient="-119.70156600529239"/>
+			<NumericPredictor name="SL" coefficient="-184.22010473081454"/>
+			<NumericPredictor name="Denivelé" coefficient="-160.7144513561292"/>
+			<NumericPredictor name="Duree_preparation" coefficient="32.23529227649357"/>
+			<NumericPredictor name="RF" coefficient="119.95008985087102"/>
+			<NumericPredictor name="Activities" coefficient="48.21367054022315"/>
+			<NumericPredictor name="Experience" coefficient="-146.7216504796795"/>
+		</RegressionTable>
+	</RegressionModel>
+</PMML>

@@ -1,0 +1,220 @@
+<resources>
+    <string name="app_name">OptisportApp</string>
+    <string name="app_title">OptiSport</string>
+    <string name="tap_screen">Appuyer sur l\'écran pour continuer</string>
+    <string name="profile">Profil</string>
+    <string name="training">Entrainement</string>
+    <string name="tips">Conseils</string>
+    <string name="settings">Options</string>
+    <string name="goal">Mon objectif :</string>
+    <string name="cancel">Annuler</string>
+    <string name="edit">Modifier</string>
+    <string name="days">jours</string>
+    <string name="trainings_counter">Entrainements :</string>
+    <string name="trainings_normal_counter">Footings :</string>
+    <string name="trainings_fractional_counter">Fractionnés :</string>
+    <string name="trainings_long_counter">Longs :</string>
+    <string name="trainings_muscular_counter">Musculaires :</string>
+    <string name="date_tomorrow">Demain</string>
+    <string name="text_before_questions1">Cher (futur) marathonien</string>
+    <string name="text_before_questions2">Tu vas découvrir ton application spécialement dédiée
+        à la préparation de ton prochain marathon.</string>
+    <string name="text_before_questions3">Nous allons t\'aider à fixer le meilleur objectif en
+        fonction de ton profil. Notre estimation est basée sur une base de données de résultats
+        d\'un grand nombre de sportifs ayant effectué une préparation pour un marathon.</string>
+    <string name="text_before_questions4">Pour te proposer la meilleure estimation possible,
+        nous allons te poser quelques questions sur toi et sur la façon dont tu as envie de
+        préparer ce marathon. Ces éléments restent modifiables par la suite si tu veux changer
+        tes réponses.</string>
+    <string name="text_before_questions5">Selon ta réponse à chaque question, l\'estimation de
+        ton temps est calculée par notre algorithme en temps réel, n\'hésite donc pas à tester
+        plusieurs réponses si tu hésites !</string>
+    <string name="start_questions">C\'est parti !</string>
+    <string name="estimation_text">Estimation du temps du marathon : </string>
+    <string name="empty_text"></string>
+    <string name="question0">Choisis une langue :</string>
+    <string name="question1">1. Quel est ton genre ?</string>
+    <string name="question2">2. Quel âge as-tu ?</string>
+    <string name="question3">3. Quelle est ta taille ?</string>
+    <string name="question4">4. Quel est ton poids en Kg ?</string>
+    <string name="question5">5. Depuis combien d\'années cours-tu ?</string>
+    <string name="question6">6. Combien de marathons as-tu réalisé ?</string>
+    <string name="question7">7. Combien d\'entraînements par semaine prévoies-tu pour ce marathon ?</string>
+    <string name="question8">8. Quels sont tes jours d\'entrainements ?</string>
+    <string name="question9">9. Quelle est la date de ton marathon ?</string>
+    <string name="question0_answer1">Anglais</string>
+    <string name="question0_answer2">Français</string>
+    <string name="question1_answer1">Homme</string>
+    <string name="question1_answer2">Femme</string>
+    <string name="question5_answer1">0 à 1</string>
+    <string name="question5_answer2">2</string>
+    <string name="question5_answer3">3</string>
+    <string name="question5_answer4">4</string>
+    <string name="question5_answer5">5</string>
+    <string name="question5_answer6">6 +</string>
+    <string name="question6_answer1">0</string>
+    <string name="question6_answer2">1</string>
+    <string name="question6_answer3">2</string>
+    <string name="question6_answer4">3</string>
+    <string name="question6_answer5">4 +</string>
+    <string name="question7_answer1">1</string>
+    <string name="question7_answer2">2</string>
+    <string name="question7_answer3">3</string>
+    <string name="question7_answer4">4</string>
+    <string name="question7_answer5">5</string>
+    <string name="question7_answer6">6</string>
+    <string name="question7_answer7">7</string>
+    <string name="question8_answer1">Lundi</string>
+    <string name="question8_answer2">Mardi</string>
+    <string name="question8_answer3">Mercredi</string>
+    <string name="question8_answer4">Jeudi</string>
+    <string name="question8_answer5">Vendredi</string>
+    <string name="question8_answer6">Samedi</string>
+    <string name="question8_answer7">Dimanche</string>
+    <string name="counter_delimiter">/</string>
+    <string name="buttonLast">Précèdent</string>
+    <string name="buttonNext">Suivant</string>
+    <string name="button_save">Enregistrer</string>
+    <string name="warning_message">Attention!\n\nTu souhaites t\'entrainer un grand nombre de fois
+        par semaine. Si tu es débutant en course à pied, c\'est important de commencer doucement.
+        \n\nCommence par un 1 ou 2 entrainements par semaine pour ensuite augmenter si tu t\'en sens
+        capable.\n\nSi c\'est ton premier marathon, ton objectif principal est avant tout de le
+        terminer!\n</string>
+    <string name="warning_confirm">Je vais faire attention !</string>
+    <string name="wrong_date_message">La date de ton marathon doit être dans plus de 30 jours.</string>
+    <string name="wrong_date_confirm">Je vais changer la date !</string>
+    <string name="title_activity_tips">Conseils</string>
+    <string name="tips_title">Tu peux retrouver ici les conseils pour la préparation de ton marahton</string>
+    <string name="title_random_tip">Conseil :\n</string>
+    <string name="tip1">Apprends à connaitre tes limites pour ne pas te blesser.</string>
+    <string name="tip2">Le premier objectif d\'un marathon est de le terminer !</string>
+    <string name="tip3">Si tu n\'arrives pas à suivre ta préparation,
+        mieux vaut revoir ton objectif.</string>
+    <string name="tip4">Une séance d\'entrainement = une séance d\'étiremment</string>
+    <string name="tip5">Si tu as souvent des courbatures, force toi à boire beaucoup d\'eau.</string>
+    <string name="tip6">Pendant la course, repère un groupe ayant le même objectif que toi et
+        cours au sein de ce groupe</string>
+    <string name="tip7">Quand tu as un point de côté, appuie fort dessus et souffle tout en ramenant
+        le haut de ton torse vers le sol.</string>
+    <string name="tip8">Si vous voulez vous ravitaller durant le marathon, habituez-vous
+        à le faire durant vos entrainements.</string>
+    <string name="tip9">Pendant la course, mieux vaut se forcer à commencer lentement
+        pour ensuite accelérer ton rythme</string>
+    <string name="tip10">\"Si tu veux courir, cours un kilomètre. Si tu veux changer ta vie,
+        cours un marahton.\", Emil Zatopek</string>
+    <string name="tip11">Ecoute ton corps afin d’éviter des blessures. Il ne faut pas forcer.</string>
+    <string name="tip12">Si tu as des problèmes de courbatures ou autre, n’hésite pas à consulter
+        un kinésithérapeute.</string>
+    <string name="tip13">Le vélo est un excellent moyen supplémentaire pour se renforcer.</string>
+    <string name="tip14">Évite de faire des séances fractionnées trop intenses, cela peut-être
+        source de blessure.</string>
+    <string name="tip15">Evite au maximum l’alcool et le tabac.</string>
+    <string name="tip16">Essaye de ne pas courir plus vite que tes limites, il faut être régulier
+        et avoir des objectifs réalisables.</string>
+    <string name="tip17">Le 30ème km du marathon est une barrière psychologique importante,
+        il ne faut pas aller trop vite au début.</string>
+    <string name="tip18">Il faut être bien chaussé pour le marathon. L’idéal est les
+        chaussures adaptés à la forme spécifique de tes pieds.</string>
+    <string name="tip19">Trouve quelqu’un qui a les mêmes conditions physiques que toi, afin de
+        s’entraîner et se soutenir mutuellement. </string>
+    <string name="tip20">Aie confiance en toi !</string>
+    <string name="tip21">Attention au surentraînement !</string>
+    <string name="language">Langue de l\'application :</string>
+    <string name="english">Anglais</string>
+    <string name="french">Français</string>
+    <string name="delete_data">Supprimer les données de l\'application</string>
+    <string name="age">Age</string>
+    <string name="height">Taille</string>
+    <string name="weight">Poids</string>
+    <string name="experience">Tu cours depuis</string>
+    <string name="marathon_done">Marathons finis</string>
+    <string name="training_per_week">Entrainements par semaine</string>
+    <string name="activities">Autres sports</string>
+    <string name="muscular">Renforcement musculaire</string>
+    <string name="muscular_choice1">Non</string>
+    <string name="muscular_choice2">Muscu</string>
+    <string name="muscular_choice3">Velo</string>
+    <string name="muscular_choice4">Velo+Muscu</string>
+    <string name="activities_choice1">Aucun</string>
+    <string name="activities_choice2">Collectif</string>
+    <string name="activities_choice3">Endurance</string>
+    <string name="activities_choice4">Force</string>
+    <string name="activities_choice5">Raquette</string>
+    <string name="activities_choice6">Combat</string>
+    <string name="experience_choice1">0 à 1 an</string>
+    <string name="experience_choice2">2 ans</string>
+    <string name="experience_choice3">3 ans</string>
+    <string name="experience_choice4">4 ans</string>
+    <string name="experience_choice5">5 ans</string>
+    <string name="experience_choice6">6+ ans</string>
+    <string name="monday">Lundi</string>
+    <string name="tuesday">Mardi</string>
+    <string name="wednesday">Mercredi</string>
+    <string name="thursday">Jeudi</string>
+    <string name="friday">Vendredi</string>
+    <string name="saturday">Samedi</string>
+    <string name="sunday">Dimanche</string>
+    <string name="january">Janvier</string>
+    <string name="february">Février</string>
+    <string name="march">Mars</string>
+    <string name="april">Avril</string>
+    <string name="may">Mai</string>
+    <string name="june">Juin</string>
+    <string name="july">Juillet</string>
+    <string name="august">Août</string>
+    <string name="september">Septembre</string>
+    <string name="october">Octobre</string>
+    <string name="november">Novembre</string>
+    <string name="december">Decembre</string>
+    <string name="nothing">Repos</string>
+    <string name="marathon">Marathon</string>
+    <string name="change_date_message">Selectionnez la nouvelle date</string>
+    <string name="change_training_type">Selectionnez le nouveau type d\'entrainement</string>
+    <string name="change_date_confirm">Ok !</string>
+    <string name="training_normal">Footing</string>
+    <string name="training_fractional">Entrainement fractionné</string>
+    <string name="training_long">Entrainement long</string>
+    <string name="training_muscular">Renforcement musculaire</string>
+    <string name="check_training">Avez-vous terminé cet entrainement ?</string>
+    <string name="yes">Oui !</string>
+    <string name="reschedule">Non, le reprogrammer plus tard.</string>
+    <string name="remove_training">Non, je ne le ferai pas.</string>
+    <string name="add_training">Choisissez un entrainement à rajouter ce jour.</string>
+    <string name="footing1">Footing : 45 minutes à 1 heure.</string>
+    <string name="footing2">Footing : 45 minutes.</string>
+    <string name="footing3">Footing : 1 heure.</string>
+    <string name="long1">Sortie longue : 1h10 à 75% de la fréquence cardiaque maximale.</string>
+    <string name="long2">Sortie longue : 1h30 dont 2 fois 8 minutes à 85\-90% FCM avec une
+        récupération de 2 minutes entre chaque effort.</string>
+    <string name="long3">Sortie longue : 1h30 dont 2 fois 10 minutes à 85\-90% FCM avec une
+        récupération de 2 minutes entre chaque effort.</string>
+    <string name="long4">Sortie longue : 1h40 avec 3 fois 3000m à allure spécifique marathon ou
+        80\-85% FCM, 2 minutes entre chaque effort.</string>
+    <string name="long5">Sortie longue : 2h00 avec 3 fois 4000m à allure spécifque marathon ou
+        80\-85% FCM, 2 minutes entre chaque effort.</string>
+    <string name="long6">Sortie longue : 1h20 à 70\-75% de la fréquence cardiaque maximale.</string>
+    <string name="long7">Sortie longue : 1h30 dont 2 fois 12 minutes à 80\-85%  FCM avec une
+        récupération de 2 minutes entre chaque effort.</string>
+    <string name="fractional1">Fractionné : footing 30 min, 2 séries de 10x : 30s d\'effort à ta
+        vitesse maximale / 30s de récupération, 3 min recup entre les séries.</string>
+    <string name="fractional2">Fractionné : footing de 20\-30min, 2 séries de 10x : 200m à
+        100\-105% VMA / récup 30s entre les 200m et 3 min entre chaque série.</string>
+    <string name="fractional3">Fractionné : footing de 20\-30min, 2 séries de 8x : 30s d\'effort à
+        100\-105% VMA / 30s de récupération, 3min de récup entre chaque série.</string>
+    <string name="fractional4">Fractionné : footing de 20\-30 min, 12 série : 300m à ta vitesse
+        maximale / récupération de 45s à 1 min entre les 300m.</string>
+    <string name="fractional5">Fractionné : footing de 20\-30 min, 2 séries 5x : 400m à 95% à ta
+        vitesse maximale / récup de 1min10 par 400m et 3min entre chaque série.</string>
+    <string name="fractional6">Fractionné : footing de 20\-30 min, 2 séries 5x : 400m à 95% VMA /
+        récup de 1 min 10 entre les 400m et 3 min entre chaque série.</string>
+    <string name="fractional7">Fractionné : footing de 20\-30 min, 2 séries de 6x : 300m à 100% VMA
+        / récup de 45s à 1 min entre les 300m et 3 min entre chaque série.</string>
+    <string name="muscular1">Musculaire : footing 20 min, 2x : gainage 45s à 1 min 30 de chaque côté
+        , recup 5 min entre les séries.</string>
+    <string name="muscular2">Musculaire : footing 20 min, 3x : 15\-20 pompes, recup 5 min entre les
+        séries.</string>
+    <string name="muscular3">Musculaire : footing 20 min, 3x : 20 crunch, recup 5 min entre les
+        séries.</string>
+    <string name="muscular4">Musculaire : footing 20 min, 3x : 20 squat, recup 5 min entre les
+        séries.</string>
+</resources>

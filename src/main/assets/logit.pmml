@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PMML xmlns="http://www.dmg.org/PMML-4_4" xmlns:data="http://jpmml.org/jpmml-model/InlineTable" version="4.4">
+	<Header>
+		<Application name="JPMML-SkLearn" version="1.6.35"/>
+		<Timestamp>2022-01-27T11:09:14Z</Timestamp>
+	</Header>
+	<MiningBuildTask>
+		<Extension name="repr">PMMLPipeline(steps=[('regressor', DecisionTreeRegressor())])</Extension>
+	</MiningBuildTask>
+	<DataDictionary>
+		<DataField name="Temps" optype="continuous" dataType="double"/>
+		<DataField name="NB_marathon" optype="continuous" dataType="float"/>
+		<DataField name="Gender" optype="continuous" dataType="float"/>
+		<DataField name="Taille" optype="continuous" dataType="float"/>
+		<DataField name="Poids" optype="continuous" dataType="float"/>
+		<DataField name="IMC" optype="continuous" dataType="float"/>
+		<DataField name="Age" optype="continuous" dataType="float"/>
+		<DataField name="NB_Training" optype="continuous" dataType="float"/>
+		<DataField name="Fractionné" optype="continuous" dataType="float"/>
+		<DataField name="SL" optype="continuous" dataType="float"/>
+		<DataField name="Denivelé" optype="continuous" dataType="float"/>
+		<DataField name="Duree_preparation" optype="continuous" dataType="float"/>
+		<DataField name="RF" optype="continuous" dataType="float"/>
+		<DataField name="Activities" optype="continuous" dataType="float"/>
+		<DataField name="Experience" optype="continuous" dataType="float"/>
+	</DataDictionary>
+	<TreeModel functionName="regression" algorithmName="sklearn.tree._classes.DecisionTreeRegressor" missingValueStrategy="nullPrediction" noTrueChildStrategy="returnLastPrediction">
+		<MiningSchema>
+			<MiningField name="Temps" usageType="target"/>
+			<MiningField name="NB_Training"/>
+			<MiningField name="Gender"/>
+			<MiningField name="Poids"/>
+			<MiningField name="NB_marathon"/>
+			<MiningField name="Denivelé"/>
+			<MiningField name="IMC"/>
+			<MiningField name="Activities"/>
+			<MiningField name="SL"/>
+			<MiningField name="Taille"/>
+			<MiningField name="Age"/>
+			<MiningField name="RF"/>
+			<MiningField name="Fractionné"/>
+			<MiningField name="Duree_preparation"/>
+			<MiningField name="Experience"/>
+		</MiningSchema>
+		<LocalTransformations>
+			<DerivedField name="double(NB_Training)" optype="continuous" dataType="double">
+				<FieldRef field="NB_Training"/>
+			</DerivedField>
+			<DerivedField name="double(Gender)" optype="continuous" dataType="double">
+				<FieldRef field="Gender"/>
+			</DerivedField>
+			<DerivedField name="double(Poids)" optype="continuous" dataType="double">
+				<FieldRef field="Poids"/>
+			</DerivedField>
+			<DerivedField name="double(NB_marathon)" optype="continuous" dataType="double">
+				<FieldRef field="NB_marathon"/>
+			</DerivedField>
+			<DerivedField name="double(Denivelé)" optype="continuous" dataType="double">
+				<FieldRef field="Denivelé"/>
+			</DerivedField>
+			<DerivedField name="double(IMC)" optype="continuous" dataType="double">
+				<FieldRef field="IMC"/>
+			</DerivedField>
+			<DerivedField name="double(Activities)" optype="continuous" dataType="double">
+				<FieldRef field="Activities"/>
+			</DerivedField>
+			<DerivedField name="double(SL)" optype="continuous" dataType="double">
+				<FieldRef field="SL"/>
+			</DerivedField>
+			<DerivedField name="double(Taille)" optype="continuous" dataType="double">
+				<FieldRef field="Taille"/>
+			</DerivedField>
+			<DerivedField name="double(Age)" optype="continuous" dataType="double">
+				<FieldRef field="Age"/>
+			</DerivedField>
+			<DerivedField name="double(RF)" optype="continuous" dataType="double">
+				<FieldRef field="RF"/>
+			</DerivedField>
+			<DerivedField name="double(Fractionné)" optype="continuous" dataType="double">
+				<FieldRef field="Fractionné"/>
+			</DerivedField>
+			<DerivedField name="double(Duree_preparation)" optype="continuous" dataType="double">
+				<FieldRef field="Duree_preparation"/>
+			</DerivedField>
+			<DerivedField name="double(Experience)" optype="continuous" dataType="double">
+				<FieldRef field="Experience"/>
+			</DerivedField>
+		</LocalTransformations>
+		<Node score="8580.0">
+			<True/>
+			<Node score="14760.0">
+				<SimplePredicate field="double(NB_Training)" operator="lessOrEqual" value="4.5"/>
+				<Node score="19200.0">
+					<SimplePredicate field="double(Gender)" operator="lessOrEqual" value="0.5"/>
+					<Node score="13140.0">
+						<SimplePredicate field="double(Poids)" operator="lessOrEqual" value="63.5"/>
+						<Node score="15960.0">
+							<SimplePredicate field="double(NB_marathon)" operator="lessOrEqual" value="3.5"/>
+							<Node score="16080.0">
+								<SimplePredicate field="double(Poids)" operator="lessOrEqual" value="51.5"/>
+								<Node score="13320.0">
+									<SimplePredicate field="double(NB_marathon)" operator="lessOrEqual" value="2.5"/>
+									<Node score="13680.0">
+										<SimplePredicate field="double(Denivelé)" operator="lessOrEqual" value="0.5"/>
+									</Node>
+								</Node>
+								<Node score="16140.0">
+									<SimplePredicate field="double(NB_Training)" operator="lessOrEqual" value="3.5"/>
+								</Node>
+							</Node>
+							<Node score="15960.0">
+								<SimplePredicate field="double(Denivelé)" operator="lessOrEqual" value="0.5"/>
+								<Node score="14400.0">
+									<SimplePredicate field="double(IMC)" operator="lessOrEqual" value="21.0"/>
+								</Node>
+							</Node>
+							<Node score="16800.0">
+								<SimplePredicate field="double(Activities)" operator="lessOrEqual" value="1.5"/>
+								<Node score="15960.0">
+									<SimplePredicate field="double(SL)" operator="lessOrEqual" value="1.5"/>
+									<Node score="16440.0">
+										<SimplePredicate field="double(Taille)" operator="lessOrEqual" value="1.6399999856948853"/>
+										<Node score="16200.0">
+											<SimplePredicate field="double(Age)" operator="lessOrEqual" value="28.0"/>
+										</Node>
+									</Node>
+								</Node>
+							</Node>
+							<Node score="15000.0">
+								<SimplePredicate field="double(RF)" operator="lessOrEqual" value="1.5"/>
+							</Node>
+						</Node>
+						<Node score="14400.0">
+							<SimplePredicate field="double(NB_Training)" operator="lessOrEqual" value="3.5"/>
+							<Node score="13500.0">
+								<SimplePredicate field="double(SL)" operator="lessOrEqual" value="0.5"/>
+							</Node>
+							<Node score="14760.0">
+								<SimplePredicate field="double(RF)" operator="lessOrEqual" value="1.5"/>
+								<Node score="14640.0">
+									<SimplePredicate field="double(Age)" operator="lessOrEqual" value="48.0"/>
+								</Node>
+							</Node>
+						</Node>
+						<Node score="12120.0">
+							<SimplePredicate field="double(Fractionné)" operator="lessOrEqual" value="1.5"/>
+						</Node>
+					</Node>
+					<Node score="15540.0">
+						<SimplePredicate field="double(NB_marathon)" operator="lessOrEqual" value="1.5"/>
+						<Node score="15960.0">
+							<SimplePredicate field="double(NB_Training)" operator="lessOrEqual" value="3.5"/>
+						</Node>
+					</Node>
+					<Node score="21000.0">
+						<SimplePredicate field="double(Duree_preparation)" operator="lessOrEqual" value="3.0"/>
+					</Node>
+				</Node>
+				<Node score="15600.0">
+					<SimplePredicate field="double(IMC)" operator="lessOrEqual" value="22.5"/>
+					<Node score="11880.0">
+						<SimplePredicate field="double(Age)" operator="lessOrEqual" value="57.5"/>
+						<Node score="12540.0">
+							<SimplePredicate field="double(Experience)" operator="lessOrEqual" value="3.5"/>
+							<Node score="13680.0">
+								<SimplePredicate field="double(NB_marathon)" operator="lessOrEqual" value="1.5"/>
+							</Node>
+						</Node>
+						<Node score="11160.0">
+							<SimplePredicate field="double(Denivelé)" operator="lessOrEqual" value="0.5"/>
+							<Node score="11580.0">
+								<SimplePredicate field="double(NB_marathon)" operator="lessOrEqual" value="3.5"/>
+								<Node score="12000.0">
+									<SimplePredicate field="double(Experience)" operator="lessOrEqual" value="5.0"/>
+								</Node>
+							</Node>
+							<Node score="10440.0">
+								<SimplePredicate field="double(Poids)" operator="lessOrEqual" value="68.0"/>
+								<Node score="10680.0">
+									<SimplePredicate field="double(IMC)" operator="lessOrEqual" value="21.5"/>
+								</Node>
+							</Node>
+						</Node>
+						<Node score="12660.0">
+							<SimplePredicate field="double(Poids)" operator="lessOrEqual" value="69.5"/>
+							<Node score="13500.0">
+								<SimplePredicate field="double(Activities)" operator="lessOrEqual" value="2.0"/>
+							</Node>
+						</Node>
+						<Node score="11160.0">
+							<SimplePredicate field="double(Age)" operator="lessOrEqual" value="44.0"/>
+						</Node>
+					</Node>
+					<Node score="12900.0">
+						<SimplePredicate field="double(IMC)" operator="lessOrEqual" value="21.5"/>
+					</Node>
+				</Node>
+				<Node score="16200.0">
+					<SimplePredicate field="double(Fractionné)" operator="lessOrEqual" value="0.5"/>
+					<Node score="15300.0">
+						<SimplePredicate field="double(Poids)" operator="lessOrEqual" value="74.5"/>
+					</Node>
+					<Node score="15900.0">
+						<SimplePredicate field="double(Experience)" operator="lessOrEqual" value="5.0"/>
+					</Node>
+				</Node>
+				<Node score="10920.0">
+					<SimplePredicate field="double(NB_marathon)" operator="lessOrEqual" value="3.0"/>
+					<Node score="17340.0">
+						<SimplePredicate field="double(Denivelé)" operator="lessOrEqual" value="2.0"/>
+						<Node score="15780.0">
+							<SimplePredicate field="double(Age)" operator="lessOrEqual" value="54.0"/>
+							<Node score="15180.0">
+								<SimplePredicate field="double(RF)" operator="lessOrEqual" value="2.5"/>
+								<Node score="14760.0">
+									<SimplePredicate field="double(Taille)" operator="lessOrEqual" value="1.7899999618530273"/>
+									<Node score="13440.0">
+										<SimplePredicate field="double(Fractionné)" operator="lessOrEqual" value="1.5"/>
+										<Node score="13920.0">
+											<SimplePredicate field="double(NB_marathon)" operator="lessOrEqual" value="1.5"/>
+											<Node score="13740.0">
+												<SimplePredicate field="double(Experience)" operator="lessOrEqual" value="4.0"/>
+											</Node>
+										</Node>
+										<Node score="13500.0">
+											<SimplePredicate field="double(IMC)" operator="lessOrEqual" value="24.5"/>
+										</Node>
+									</Node>
+								</Node>
+								<Node score="14400.0">
+									<SimplePredicate field="double(SL)" operator="lessOrEqual" value="1.5"/>
+									<Node score="14640.0">
+										<SimplePredicate field="double(Denivelé)" operator="lessOrEqual" value="0.5"/>
+									</Node>
+								</Node>
+								<Node score="15300.0">
+									<SimplePredicate field="double(IMC)" operator="lessOrEqual" value="25.5"/>
+								</Node>
+							</Node>
+						</Node>
+					</Node>
+				</Node>
+				<Node score="10680.0">
+					<SimplePredicate field="double(Denivelé)" operator="lessOrEqual" value="2.0"/>
+					<Node score="14520.0">
+						<SimplePredicate field="double(SL)" operator="lessOrEqual" value="1.5"/>
+						<Node score="13500.0">
+							<SimplePredicate field="double(RF)" operator="lessOrEqual" value="0.5"/>
+							<Node score="12060.0">
+								<SimplePredicate field="double(Poids)" operator="lessOrEqual" value="82.5"/>
+								<Node score="12600.0">
+									<SimplePredicate field="double(Age)" operator="lessOrEqual" value="45.5"/>
+								</Node>
+							</Node>
+						</Node>
+						<Node score="13920.0">
+							<SimplePredicate field="double(Duree_preparation)" operator="lessOrEqual" value="3.5"/>
+							<Node score="14100.0">
+								<SimplePredicate field="double(Age)" operator="lessOrEqual" value="43.0"/>
+							</Node>
+							<Node score="13800.0">
+								<SimplePredicate field="double(Taille)" operator="lessOrEqual" value="1.715000033378601"/>
+							</Node>
+						</Node>
+					</Node>
+					<Node score="11880.0">
+						<SimplePredicate field="double(Duree_preparation)" operator="lessOrEqual" value="3.5"/>
+					</Node>
+				</Node>
+			</Node>
+			<Node score="10560.0">
+				<SimplePredicate field="double(NB_Training)" operator="lessOrEqual" value="6.5"/>
+				<Node score="13080.0">
+					<SimplePredicate field="double(Gender)" operator="lessOrEqual" value="0.5"/>
+					<Node score="13800.0">
+						<SimplePredicate field="double(Taille)" operator="lessOrEqual" value="1.6899999976158142"/>
+					</Node>
+				</Node>
+				<Node score="12180.0">
+					<SimplePredicate field="double(Experience)" operator="lessOrEqual" value="5.5"/>
+					<Node score="12420.0">
+						<SimplePredicate field="double(IMC)" operator="lessOrEqual" value="21.0"/>
+					</Node>
+					<Node score="12000.0">
+						<SimplePredicate field="double(Taille)" operator="lessOrEqual" value="1.7549999952316284"/>
+					</Node>
+				</Node>
+				<Node score="10860.0">
+					<SimplePredicate field="double(RF)" operator="lessOrEqual" value="1.5"/>
+					<Node score="11580.0">
+						<SimplePredicate field="double(Taille)" operator="lessOrEqual" value="1.7000000476837158"/>
+					</Node>
+					<Node score="11160.0">
+						<SimplePredicate field="double(Age)" operator="lessOrEqual" value="45.5"/>
+						<Node score="11100.0">
+							<SimplePredicate field="double(Fractionné)" operator="lessOrEqual" value="2.5"/>
+							<Node score="11040.0">
+								<SimplePredicate field="double(IMC)" operator="lessOrEqual" value="21.0"/>
+							</Node>
+						</Node>
+					</Node>
+				</Node>
+				<Node score="10020.0">
+					<SimplePredicate field="double(Poids)" operator="lessOrEqual" value="65.5"/>
+				</Node>
+				<Node score="10800.0">
+					<SimplePredicate field="double(Denivelé)" operator="lessOrEqual" value="1.5"/>
+				</Node>
+				<Node score="10680.0">
+					<SimplePredicate field="double(Activities)" operator="lessOrEqual" value="2.0"/>
+				</Node>
+			</Node>
+			<Node score="11400.0">
+				<SimplePredicate field="double(IMC)" operator="lessOrEqual" value="19.0"/>
+			</Node>
+			<Node score="8640.0">
+				<SimplePredicate field="double(Denivelé)" operator="lessOrEqual" value="1.5"/>
+			</Node>
+		</Node>
+	</TreeModel>
+</PMML>

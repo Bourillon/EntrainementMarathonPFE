@@ -1,0 +1,217 @@
+<resources>
+    <string name="app_name">OptisportApp</string>
+    <string name="app_title">OptiSport</string>
+    <string name="tap_screen">Tap anywhere on the screen</string>
+    <string name="profile">Profile</string>
+    <string name="training">Training</string>
+    <string name="tips">Tips</string>
+    <string name="settings">Settings</string>
+    <string name="goal">My goal :</string>
+    <string name="days">days</string>
+    <string name="trainings_normal_counter">Footings :</string>
+    <string name="trainings_fractional_counter">Fractionals :</string>
+    <string name="trainings_long_counter">Longs :</string>
+    <string name="trainings_muscular_counter">Musculars :</string>
+    <string name="trainings_counter">Trainings :</string>
+    <string name="date_tomorrow"><u>Tomorrow</u></string>
+    <string name="text_before_questions1">Dear (future) marathoner</string>
+    <string name="text_before_questions2">You will discover your specially dedicated application
+        preparing for your next marathon.</string>
+    <string name="text_before_questions3">We will help you set the best goal by
+        depending on your profile. Our estimate is based on a database of results
+        of a large number of athletes who have prepared for a marathon.</string>
+    <string name="text_before_questions4">To give you the best estimate possible,
+        we are going to ask you some questions about you and how you feel like
+        prepare for this marathon. These questions will remain editable later if
+        you want to change your answers.</string>
+    <string name="text_before_questions5">Based on your answer to each question, the estimate of
+        your time is calculated by our algorithm in real time, so feel free to test
+        several answers if you hesitate between several !</string>
+    <string name="start_questions">Let\'s go !</string>
+    <string name="estimation_text">Marathon estimation time : </string>
+    <string name="empty_text"></string>
+    <string name="question0">Choose a language :</string>
+    <string name="question1">1. What is your gender ?</string>
+    <string name="question2">2. How old are you ?</string>
+    <string name="question3">3. What is your height ?</string>
+    <string name="question4">4. What is your weight in Kg?</string>
+    <string name="question5">5. How many years have you been running ?</string>
+    <string name="question6">6. How many marathon have you done ?</string>
+    <string name="question7">7. How many training per week do you plan for this marathon ?</string>
+    <string name="question8">8. What are your preferred training days ?</string>
+    <string name="question9">9. What is the date of your marathon ?</string>
+    <string name="question0_answer1">English</string>
+    <string name="question0_answer2">French</string>
+    <string name="question1_answer1">Male</string>
+    <string name="question1_answer2">Female</string>
+    <string name="question5_answer1">0 to 1</string>
+    <string name="question5_answer2">2</string>
+    <string name="question5_answer3">3</string>
+    <string name="question5_answer4">4</string>
+    <string name="question5_answer5">5</string>
+    <string name="question5_answer6">6 +</string>
+    <string name="question6_answer1">0</string>
+    <string name="question6_answer2">1</string>
+    <string name="question6_answer3">2</string>
+    <string name="question6_answer4">3</string>
+    <string name="question6_answer5">4 +</string>
+    <string name="question7_answer1">1</string>
+    <string name="question7_answer2">2</string>
+    <string name="question7_answer3">3</string>
+    <string name="question7_answer4">4</string>
+    <string name="question7_answer5">5</string>
+    <string name="question7_answer6">6</string>
+    <string name="question7_answer7">7</string>
+    <string name="question8_answer1">Monday</string>
+    <string name="question8_answer2">Tuesday</string>
+    <string name="question8_answer3">Wednesday</string>
+    <string name="question8_answer4">Thursday</string>
+    <string name="question8_answer5">Friday</string>
+    <string name="question8_answer6">Saturday</string>
+    <string name="question8_answer7">Sunday</string>
+    <string name="counter_delimiter">/</string>
+    <string name="buttonLast">Last</string>
+    <string name="buttonNext">Next</string>
+    <string name="button_save">Save</string>
+    <string name="warning_message">Attention!\n\nYou want to train many times a week. If you are a
+        beginner in running, it is important to start slowly.\n\nStart with 1 or 2 training
+        sessions per week and then increase if you feel capable.\n\nIf this is your first marathon,
+        your main goal is to finish it!\n</string>
+    <string name="warning_confirm">I will be careful</string>
+    <string name="wrong_date_message">The date of your marathon must be in more than 30 days.</string>
+    <string name="wrong_date_confirm">I will correct that!</string>
+    <string name="title_activity_tips">Tips</string>
+    <string name="tips_title">Here are some tips for your marathon\'s preparation</string>
+    <string name="title_random_tip">Tip :\n</string>
+    <string name="tip1">Know your limits so you don\'t hurt yourself.</string>
+    <string name="tip2">The first goal of a marathon is to finish it !</string>
+    <string name="tip3">If you can\'t follow your preparation,
+        better reconsider your goal.</string>
+    <string name="tip4">One training session = one stretching session</string>
+    <string name="tip5">If you often have body aches, force yourself to drink a lot of water.</string>
+    <string name="tip6">During the race, find a group with the same objective as you and
+        course in this group.</string>
+    <string name="tip7">When you have a side stitch, press hard on it and blow while bringing
+        your upper torso towards the ground.</string>
+    <string name="tip8">If you want to refuel during the marathon, try to get there
+        get used to doing it during your training.</string>
+    <string name="tip9">During the race, it is better to force yourself to start slowly
+        then pick up your pace.</string>
+    <string name="tip10">\"If you want to run, run a mile. If you want to change your life,
+        run a marathon.\", Emil Zatopek</string>
+    <string name="tip11">Listen to your body to avoid injury. You should not force yourself.</string>
+    <string name="tip12">If you have problems with aches and pains or anything else, don\'t hesitate
+        to consult a physical therapist.</string>
+    <string name="tip13">Biking is a great additional way to get stronger.</string>
+    <string name="tip14">Avoid doing split sessions that are too intense, it can be a source of injury.</string>
+    <string name="tip15">Avoid alcohol and tobacco as much as possible.</string>
+    <string name="tip16">Don\'t try to go too fast, you need to be regular and have achievable goals.</string>
+    <string name="tip17">The 30km marathon is an important psychological barrier, you should not go
+        too fast at the beginning.</string>
+    <string name="tip18">It is better to be well shod for the marathon. The ideal is to have shoes
+        adapted to its specific shape of the feet.</string>
+    <string name="tip19">Find someone who has the same physical conditions as you, in order to train
+        and support each other. </string>
+    <string name="tip20">Trust yourself !</string>
+    <string name="tip21">Beware of overtraining !</string>
+    <string name="language">Application language :</string>
+    <string name="english">English</string>
+    <string name="french">French</string>
+    <string name="delete_data">Delete the application data</string>
+    <string name="age">Age</string>
+    <string name="height">Height</string>
+    <string name="weight">Weight</string>
+    <string name="experience">Running since</string>
+    <string name="marathon_done">Marathons done</string>
+    <string name="training_per_week">Trainings per week</string>
+    <string name="activities">Other sports</string>
+    <string name="muscular">Muscular activities</string>
+    <string name="muscular_choice1">No</string>
+    <string name="muscular_choice2">Muscu</string>
+    <string name="muscular_choice3">Bike</string>
+    <string name="muscular_choice4">Bike+Muscu</string>
+    <string name="activities_choice1">Nothing</string>
+    <string name="activities_choice2">Collective</string>
+    <string name="activities_choice3">Endurance</string>
+    <string name="activities_choice4">Strength</string>
+    <string name="activities_choice5">Racket</string>
+    <string name="activities_choice6">Fighting</string>
+    <string name="experience_choice1">0 to 1 year</string>
+    <string name="experience_choice2">2 years</string>
+    <string name="experience_choice3">3 years</string>
+    <string name="experience_choice4">4 years</string>
+    <string name="experience_choice5">5 years</string>
+    <string name="experience_choice6">6+ years</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+    <string name="january">January</string>
+    <string name="february">February</string>
+    <string name="march">March</string>
+    <string name="april">April</string>
+    <string name="may">May</string>
+    <string name="june">June</string>
+    <string name="july">July</string>
+    <string name="august">August</string>
+    <string name="september">September</string>
+    <string name="october">October</string>
+    <string name="november">November</string>
+    <string name="december">December</string>
+    <string name="nothing">Nothing</string>
+    <string name="marathon">Marathon</string>
+    <string name="change_date_message">Select the new date</string>
+    <string name="change_training_type">Select the new training type</string>
+    <string name="change_date_confirm">Ok !</string>
+    <string name="training_normal">Footing</string>
+    <string name="training_fractional">Fractional training</string>
+    <string name="training_long">Long training</string>
+    <string name="training_muscular">Muscular reinforcement</string>
+    <string name="check_training">Have you done this training ?</string>
+    <string name="yes">Yes !</string>
+    <string name="cancel">Cancel</string>
+    <string name="edit">Edit</string>
+    <string name="reschedule">No, reschedule it later.</string>
+    <string name="remove_training">No, in will not do it.</string>
+    <string name="add_training">Choose a training to add on this day.</string>
+    <string name="footing1">Footing : 45 minutes to 1 hour.</string>
+    <string name="footing2">Footing : 45 minutes.</string>
+    <string name="footing3">Footing : 1 hour.</string>
+    <string name="long1">Long training: 1h10 at 75% of maximum heart rate.</string>
+    <string name="long2">Long training: 1h30 including 2 times 8 minutes at 85-90% MHR with a
+        recovery of 2 minutes between each effort.</string>
+    <string name="long3">Long training: 1h30 including 2 times 10 minutes at 85-90% MHR with a
+        recovery of 2 minutes between each effort.</string>
+    <string name="long4">Long training: 1h40 with 3 times 3000m at specific marathon pace or
+        80-85% MHR with a recovery of 2 minutes between each effort.</string>
+    <string name="long5">Long training: 2h00 with 3 times 4000m at specific marathon pace or
+        80-85% MHR with a recovery of 2 minutes between each effort.</string>
+    <string name="long6">Long training: 1h20 at 70-75% MHR.</string>
+    <string name="long7">Long training: 1h30 including 2 times 12 minutes at 80-85% MHR with a
+        recovery of 2 minutes between each effort.</string>
+    <string name="fractional1">Fractional training: jogging 30 min, 2 series of 10x: 30s of effort
+        at your maximum speed / 30s of recovery, 3 min between the series.</string>
+    <string name="fractional2">Fractional training: 20-30min jogging, 2 series of 10x: 200m at
+        100-105% vVO2max / 30s recovery between 200m and 3 min between each series.</string>
+    <string name="fractional3">Fractional training: 20-30min jogging, 2 series of 8x: 30s of effort
+        at 100-105% vVO2max / 30s of recovery, 3min between each series.</string>
+    <string name="fractional4">Fractional training: 20-30 min jog, 12 series: 300m at 100% vVO2max
+        / recovery of 45s to 1 min between 300m.</string>
+    <string name="fractional5">Fractional training: jogging of 20-30 min, 2 series 5x: 400m at 95%
+        vVO2max / recovery of 1min10 each 400m and 3min each series.</string>
+    <string name="fractional6">Fractional training: 20-30 min jogging, 2 series 5x: 400m at 95%
+        vVO2max / recovery of 1min10 each 400m and 3min each series.</string>
+    <string name="fractional7">Fractional training: 20-30 min jogging, 2 sets of 6x: 300m at 100%
+        vVO2max / recovery of 1min each 300m and 3 min each series.</string>
+    <string name="muscular1">Muscular reinforcement: jogging 20 min, 2x: sheathing 45s at 1 min 30
+        on each side, recup 5 min between series.</string>
+    <string name="muscular2">Muscular reinforcement: 20 min jog, 3x: 15-20 push-ups, 5 min rest
+        between sets.</string>
+    <string name="muscular3">Muscular reinforcement: jogging 20 min, 3x: 20 crunch, recovery 5 min
+        between sets.</string>
+    <string name="muscular4">Muscular reinforcement: jogging 20 min, 3x: 20 squat, recovery 5 min
+        between sets.</string>
+</resources>
